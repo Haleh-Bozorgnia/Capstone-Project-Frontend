@@ -43,7 +43,7 @@ const Show: FC<ShowProps> = () => {
           </div>
 
           <div className="flex felx-row m-5 h-12 w-[650px]">
-            <h2 className="bg-black pt-3 text-right w-20 mr-4">Title</h2>
+            <h2 className="bg-black pt-3 text-right w-20 mr-4">Group</h2>
             <input
               className="rounded-md w-[450px] text-black"
               type="text"
@@ -52,7 +52,7 @@ const Show: FC<ShowProps> = () => {
             />
           </div>
           <div className="flex felx-row m-5 h-12 w-[650px]">
-            <h2 className="bg-black pt-3 text-right w-20 mr-4">Title</h2>
+            <h2 className="bg-black pt-3 text-right w-20 mr-4">Location</h2>
             <input
               className="rounded-md w-[450px] text-black"
               type="text"
@@ -61,7 +61,7 @@ const Show: FC<ShowProps> = () => {
             />
           </div>
           <div className="flex felx-row m-5 h-12 w-[650px]">
-            <h2 className="bg-black pt-3 text-right w-20 mr-4">Title</h2>
+            <h2 className="bg-black pt-3 text-right w-20 mr-4">Price</h2>
             <input
               className="rounded-md w-[450px] text-black"
               type="text"
@@ -70,7 +70,7 @@ const Show: FC<ShowProps> = () => {
             />
           </div>
           <div className="flex felx-row m-5 h-12 w-[650px]">
-            <h2 className="bg-black pt-3 text-right w-20 mr-4">Title</h2>
+            <h2 className="bg-black pt-3 text-right w-20 mr-4">Unit</h2>
             <input
               className="rounded-md w-[450px] text-black"
               type="text"
@@ -79,7 +79,7 @@ const Show: FC<ShowProps> = () => {
             />
           </div>
           <div className="flex felx-row m-5 h-12 w-[650px]">
-            <h2 className="bg-black pt-3 text-right w-20 mr-4">Title</h2>
+            <h2 className="bg-black pt-3 text-right w-20 mr-4">Image</h2>
             <input
               className="rounded-md w-[450px] text-black"
               type="text"
@@ -88,7 +88,7 @@ const Show: FC<ShowProps> = () => {
             />
           </div>
           <div className="flex felx-row m-5 h-12 w-[650px]">
-            <h2 className="bg-black pt-3 text-right w-20 mr-4">Title</h2>
+            <h2 className="bg-black pt-3 text-right w-20 mr-4">Provider</h2>
             <input
               className="rounded-md w-[450px] text-black"
               type="text"
@@ -97,7 +97,7 @@ const Show: FC<ShowProps> = () => {
             />
           </div>
           <div className="flex felx-row m-5 h-12 w-[650px]">
-            <h2 className="bg-black pt-3 text-right w-20 mr-4">Title</h2>
+            <h2 className="bg-black pt-3 text-right w-20 mr-4">Phone</h2>
             <input
               className="rounded-md w-[450px] text-black"
               type="text"
