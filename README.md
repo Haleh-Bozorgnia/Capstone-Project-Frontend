@@ -45,4 +45,7 @@ TypeScript, TailwindCSS
 
 
 ## Mockup of UI <br>
+ <img src='./src/assets/SaleService.png' alt="ERD Entity"/> <br>
+
+## Entity <br>
  <img src='./src/assets/erd.jpg' alt="ERD Entity"/> <br>
