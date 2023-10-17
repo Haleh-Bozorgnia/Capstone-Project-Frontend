@@ -1,6 +1,5 @@
-import { Link, useLoaderData, Form } from "react-router-dom";
+import { useLoaderData, Form } from "react-router-dom";
 import { FC } from "react";
-interface ShowProps {}
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 interface ShowProps {}
@@ -17,7 +16,8 @@ type Item = {
   phone: string;
 };
 const Show: FC<ShowProps> = () => {
-  const post = useLoaderData() as Item[];
+  const post = useLoaderData() as Item;
+  console.log(typeof post)
 
   return (
     <div>
@@ -26,6 +26,7 @@ const Show: FC<ShowProps> = () => {
         <h1 className="mb-2 font-semibold text-3xl mt-16">
           saleservice information
         </h1>
+
 
         <Form
           method="post"
@@ -115,6 +116,7 @@ const Show: FC<ShowProps> = () => {
           <button className="bg-[#00d8ff] mt-8 rounded-lg h-[60px] w-[150px] mb-10">
             Delete 
           </button>
+      
         </Form>
       </div>
       <Footer />
