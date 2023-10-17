@@ -6,14 +6,14 @@ A full CRUD (Create, Read, Update, Delete) app for people to sell their services
 
 
 - **Users can create listings for the services they offer, including:**
-Title,Type,Provider, Location,Price,Unit,Image,Phone 
+Title, Group, Provider, Location, Price, Unit, Image and Phone 
 Ability to upload images showcasing the service.
 
 
 ### Links
 - [LINK TO GITHUB](https://github.com/Haleh-Bozorgnia/Capstone-Project-Frontend)
 
-- [LINK TO DEPLOYED WEBSITE]()
+- [LINK TO DEPLOYED WEBSITE](https://deluxe-crostata-d701d0.netlify.app/)
 - [LINK TO TRELLO](https://trello.com/invite/b/xWjZrqzw/ATTIb0826fcb35d19928f0b225fca45828da6AF1608C/saleservice)
 
 ---

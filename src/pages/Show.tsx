@@ -26,8 +26,6 @@ const Show: FC<ShowProps> = () => {
         <h1 className="mb-2 font-semibold text-3xl mt-16">
           saleservice information
         </h1>
-
-
         <Form
           method="post"
           action={`/update/${post.id}`}
@@ -108,15 +106,17 @@ const Show: FC<ShowProps> = () => {
           </div>
 
           <div>
-            <button className="bg-[#00d8ff] mt-8 rounded-lg h-[60px] w-[150px] mb-5"> Update</button>
+            <button className="bg-[#00d8ff] mt-8 rounded-lg h-[60px] w-[150px] mb-5">
+              {" "}
+              Update
+            </button>
           </div>
         </Form>
 
         <Form method="post" action={`/delete/${post.id}`}>
           <button className="bg-[#00d8ff] mt-8 rounded-lg h-[60px] w-[150px] mb-10">
-            Delete 
+            Delete
           </button>
-      
         </Form>
       </div>
       <Footer />

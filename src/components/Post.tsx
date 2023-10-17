@@ -22,7 +22,7 @@ function Post({ post }: PostProps) {
           <img
             className="border rounded-lg mb-5"
             src={post.image}
-            alt={post.title}
+            alt=""
           />
           {/* <Link to={`/post/${post.id}`} className="bg-[#00d8fd] text-white">
             <div className="w-[400px] p-5 ">{post.title}</div>
