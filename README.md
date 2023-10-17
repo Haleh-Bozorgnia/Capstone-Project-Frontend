@@ -8,7 +8,7 @@ A full CRUD (Create, Read, Update, Delete) app for people to sell their services
 - **Users can create listings for the services they offer, including:**
 Title,Type,Provider, Location,Price,Unit,Image,Phone 
 Ability to upload images showcasing the service.
-Search and Discovery
+
 
 ### Links
 - [LINK TO GITHUB](https://github.com/Haleh-Bozorgnia/Capstone-Project-Frontend)
